@@ -95,8 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				DFF427E1278CBC3B00D580E0 /* LandmarksApp.swift */,
-				DFF427E3278CBC3B00D580E0 /* ContentView.swift */,
-				DFF427E5278CBC3C00D580E0 /* Assets.xcassets */,
+				DFF4280B278CBCAF00D580E0 /* UI */,
 				DFF427E7278CBC3C00D580E0 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -125,6 +124,15 @@
 				DFF427FE278CBC3D00D580E0 /* LandmarksUITestsLaunchTests.swift */,
 			);
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		DFF4280B278CBCAF00D580E0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DFF427E5278CBC3C00D580E0 /* Assets.xcassets */,
+				DFF427E3278CBC3B00D580E0 /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
