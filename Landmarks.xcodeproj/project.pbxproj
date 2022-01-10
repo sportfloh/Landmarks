@@ -100,7 +100,6 @@
 			children = (
 				DFF427E1278CBC3B00D580E0 /* LandmarksApp.swift */,
 				DFF4280B278CBCAF00D580E0 /* UI */,
-				DFF427E7278CBC3C00D580E0 /* Preview Content */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -134,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				DFF427E5278CBC3C00D580E0 /* Assets.xcassets */,
+				DFF427E7278CBC3C00D580E0 /* Preview Content */,
 				DFF427E3278CBC3B00D580E0 /* ContentView.swift */,
 				DFF4280D278CC72100D580E0 /* CircleImageView.swift */,
 				DFF4280F278CC9EF00D580E0 /* MapView.swift */,
