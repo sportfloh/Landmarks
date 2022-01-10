@@ -14,6 +14,7 @@
 		DFF427F3278CBC3D00D580E0 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427F2278CBC3D00D580E0 /* LandmarksTests.swift */; };
 		DFF427FD278CBC3D00D580E0 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427FC278CBC3D00D580E0 /* LandmarksUITests.swift */; };
 		DFF427FF278CBC3D00D580E0 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427FE278CBC3D00D580E0 /* LandmarksUITestsLaunchTests.swift */; };
+		DFF4280E278CC72100D580E0 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4280D278CC72100D580E0 /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		DFF427F8278CBC3D00D580E0 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF427FC278CBC3D00D580E0 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		DFF427FE278CBC3D00D580E0 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFF4280D278CC72100D580E0 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			children = (
 				DFF427E5278CBC3C00D580E0 /* Assets.xcassets */,
 				DFF427E3278CBC3B00D580E0 /* ContentView.swift */,
+				DFF4280D278CC72100D580E0 /* CircleImageView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF427E4278CBC3B00D580E0 /* ContentView.swift in Sources */,
+				DFF4280E278CC72100D580E0 /* CircleImageView.swift in Sources */,
 				DFF427E2278CBC3B00D580E0 /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
