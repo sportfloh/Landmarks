@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// MARK: -
+
 @main
 struct LandmarksApp: App {
     var body: some Scene {
