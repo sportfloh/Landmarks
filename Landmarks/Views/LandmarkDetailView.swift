@@ -10,13 +10,15 @@ import SwiftUI
 // MARK: -
 
 struct LandmarkDetailView: View {
+    var landmark: Landmark
+
     var body: some View {
-        VStack {
-            MapView()
+        ScrollView {
+            MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
 
-            CircleImageView()
+            CircleImageView(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
 
@@ -39,9 +41,9 @@ struct LandmarkDetailView: View {
                 Text("Descriptive text goes here.")
             }
             .padding()
-
-            Spacer()
         }
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -49,6 +51,6 @@ struct LandmarkDetailView: View {
 
 struct LandmarkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetailView()
+        LandmarkDetailView(landmark: landmarks[0])
     }
 }
