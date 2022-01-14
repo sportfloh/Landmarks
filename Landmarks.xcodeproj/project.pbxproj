@@ -114,7 +114,6 @@
 				DFF42815278CDCFC00D580E0 /* Model */,
 				DFF4280B278CBCAF00D580E0 /* Views */,
 				DFF42814278CDCCF00D580E0 /* Resources */,
-				DFF42816278E1D6C00D580E0 /* landmarkData.json */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -160,6 +159,7 @@
 		DFF42814278CDCCF00D580E0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DFF42816278E1D6C00D580E0 /* landmarkData.json */,
 				DFF427E5278CBC3C00D580E0 /* Assets.xcassets */,
 				DFF427E7278CBC3C00D580E0 /* Preview Content */,
 			);
