@@ -5,11 +5,14 @@
 //  Created by Florian Bruder on 11.01.22.
 //
 
+import Combine
 import Foundation
 
 // MARK: -
 
-var landmarks: [Landmark] = load("landmarkData.json")
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
 
 // MARK: -
 
