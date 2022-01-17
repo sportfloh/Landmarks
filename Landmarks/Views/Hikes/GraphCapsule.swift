@@ -1,11 +1,13 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+ See LICENSE folder for this sample’s licensing information.
 
-Abstract:
-A single line in the graph.
-*/
+ Abstract:
+ A single line in the graph.
+ */
 
 import SwiftUI
+
+// MARK: -
 
 struct GraphCapsule: View, Equatable {
     var index: Int
@@ -29,6 +31,8 @@ struct GraphCapsule: View, Equatable {
             .offset(x: 0, y: height * -offsetRatio)
     }
 }
+
+// MARK: -
 
 struct GraphCapsule_Previews: PreviewProvider {
     static var previews: some View {

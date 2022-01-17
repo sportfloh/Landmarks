@@ -1,11 +1,13 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+ See LICENSE folder for this sample’s licensing information.
 
-Abstract:
-A view showing the details for a hike.
-*/
+ Abstract:
+ A view showing the details for a hike.
+ */
 
 import SwiftUI
+
+// MARK: -
 
 struct HikeDetail: View {
     let hike: Hike
@@ -39,6 +41,8 @@ struct HikeDetail: View {
         }
     }
 }
+
+// MARK: -
 
 struct HikeDetail_Previews: PreviewProvider {
     static var previews: some View {

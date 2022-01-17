@@ -1,11 +1,13 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+ See LICENSE folder for this sample’s licensing information.
 
-Abstract:
-The elevation, heart rate, and pace of a hike plotted on a graph.
-*/
+ Abstract:
+ The elevation, heart rate, and pace of a hike plotted on a graph.
+ */
 
 import SwiftUI
+
+// MARK: -
 
 struct HikeGraph: View {
     var hike: Hike
@@ -58,6 +60,8 @@ func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
 func magnitude(of range: Range<Double>) -> Double {
     range.upperBound - range.lowerBound
 }
+
+// MARK: -
 
 struct HikeGraph_Previews: PreviewProvider {
     static var hike = ModelData().hikes[0]
