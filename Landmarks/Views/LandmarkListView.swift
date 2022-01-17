@@ -10,13 +10,27 @@ import SwiftUI
 // MARK: -
 
 struct LandmarkListView: View {
+    @State private var showFavoritesOnly = false
+
+    var filteredLandmarks: [Landmark] {
+        landmarks.filter { landmark in
+            !showFavoritesOnly || landmark.isFavorite
+        }
+    }
+
     var body: some View {
         NavigationView {
-            List(landmarks) { landmark in
-                NavigationLink {
-                    LandmarkDetailView(landmark: landmark)
-                } label: {
-                    LandmarkRowView(landmark: landmark)
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+
+                ForEach(filteredLandmarks) { landmark in
+                    NavigationLink {
+                        LandmarkDetailView(landmark: landmark)
+                    } label: {
+                        LandmarkRowView(landmark: landmark)
+                    }
                 }
             }
             .navigationTitle("Landmarks")
@@ -28,10 +42,6 @@ struct LandmarkListView: View {
 
 struct LandmarkListView_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-            LandmarkListView()
-                .previewDevice(PreviewDevice(rawValue: deviceName))
-                .previewDisplayName(deviceName)
-        }
+        LandmarkListView()
     }
 }
