@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF51C9782795A46100099629 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9772795A46100099629 /* HexagonParameters.swift */; };
+		DF51C97A2795A68300099629 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9792795A68300099629 /* BadgeBackground.swift */; };
 		DF817BD327958C3C00B12719 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF817BD227958C3C00B12719 /* FavoriteButtonView.swift */; };
 		DFF427E2278CBC3B00D580E0 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427E1278CBC3B00D580E0 /* LandmarksApp.swift */; };
 		DFF427E4278CBC3B00D580E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427E3278CBC3B00D580E0 /* ContentView.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		DF51C9772795A46100099629 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		DF51C9792795A68300099629 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		DF817BD227958C3C00B12719 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
 		DFF427DE278CBC3B00D580E0 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF427E1278CBC3B00D580E0 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				DF817BD527958F4E00B12719 /* Landmarks */,
 				DF817BD427958F0C00B12719 /* Helpers */,
 				DF51C9772795A46100099629 /* HexagonParameters.swift */,
+				DF51C9792795A68300099629 /* BadgeBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 				DF51C9782795A46100099629 /* HexagonParameters.swift in Sources */,
 				DFF4280E278CC72100D580E0 /* CircleImageView.swift in Sources */,
 				DFF427E2278CBC3B00D580E0 /* LandmarksApp.swift in Sources */,
+				DF51C97A2795A68300099629 /* BadgeBackground.swift in Sources */,
 				DFF4281F278E27A000D580E0 /* LandmarkRowView.swift in Sources */,
 				DFF4281B278E1E3900D580E0 /* Landmark.swift in Sources */,
 				DF817BD327958C3C00B12719 /* FavoriteButtonView.swift in Sources */,
