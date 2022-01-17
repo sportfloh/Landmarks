@@ -19,7 +19,7 @@ struct Hike: Codable, Hashable, Identifiable {
 
     static var formater = LengthFormatter()
 
-    var distanceTest: String {
+    var distanceText: String {
         Hike.formater.string(fromValue: distance, unit: .kilometer)
     }
 
