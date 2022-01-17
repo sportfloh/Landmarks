@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF51C9782795A46100099629 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9772795A46100099629 /* HexagonParameters.swift */; };
 		DF817BD327958C3C00B12719 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF817BD227958C3C00B12719 /* FavoriteButtonView.swift */; };
 		DFF427E2278CBC3B00D580E0 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427E1278CBC3B00D580E0 /* LandmarksApp.swift */; };
 		DFF427E4278CBC3B00D580E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF427E3278CBC3B00D580E0 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF51C9772795A46100099629 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		DF817BD227958C3C00B12719 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
 		DFF427DE278CBC3B00D580E0 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF427E1278CBC3B00D580E0 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				DFF427E3278CBC3B00D580E0 /* ContentView.swift */,
 				DF817BD527958F4E00B12719 /* Landmarks */,
 				DF817BD427958F0C00B12719 /* Helpers */,
+				DF51C9772795A46100099629 /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				DFF42810278CC9EF00D580E0 /* MapView.swift in Sources */,
 				DFF42825278F7CEA00D580E0 /* LandmarkDetailView.swift in Sources */,
 				DFF42823278E2B7800D580E0 /* LandmarkListView.swift in Sources */,
+				DF51C9782795A46100099629 /* HexagonParameters.swift in Sources */,
 				DFF4280E278CC72100D580E0 /* CircleImageView.swift in Sources */,
 				DFF427E2278CBC3B00D580E0 /* LandmarksApp.swift in Sources */,
 				DFF4281F278E27A000D580E0 /* LandmarkRowView.swift in Sources */,
