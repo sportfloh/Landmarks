@@ -13,7 +13,10 @@ struct ProfileHost: View {
     @State private var draftProfile = Profile.default
 
     var body: some View {
-        ProfileSummary(profile: draftProfile)
+        VStack(alignment: .leading, spacing: 20) {
+            ProfileSummary(profile: draftProfile)
+        }
+        .padding()
     }
 }
 
