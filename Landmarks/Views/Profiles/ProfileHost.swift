@@ -24,9 +24,7 @@ struct ProfileHost: View {
             if editMode?.wrappedValue == .inactive {
                 ProfileSummary(profile: modelData.profile)
             } else {
-                Spacer()
-                Text("Profile Editor")
-                Spacer()
+                ProfileEditor(profile: $draftProfile)
             }
         }
         .padding()
