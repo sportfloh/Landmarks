@@ -9,9 +9,11 @@ import SwiftUI
 
 // MARK: -
 
-struct PageView: View {
+struct PageView<Page: View>: View {
+    var pages: [Page]
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        PageViewController(pages: pages)
     }
 }
 
@@ -19,6 +21,9 @@ struct PageView: View {
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
-        PageView()
+        PageView(pages: ModelData().features.map {
+            FeatureCard(landmark: $0)
+        })
+        .aspectRatio(3 / 2, contentMode: .fit)
     }
 }
