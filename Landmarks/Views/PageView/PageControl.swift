@@ -9,16 +9,39 @@ import SwiftUI
 
 // MARK: -
 
-struct PageControl: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct PageControl: UIViewRepresentable {
+    var numberOfPages: Int
+    @Binding var currentPage: Int
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
     }
-}
 
-// MARK: -
+    func makeUIView(context: Context) -> UIPageControl {
+        let control = UIPageControl()
+        control.numberOfPages = numberOfPages
+        control.addTarget(context.coordinator,
+                          action: #selector(Coordinator.updateCurrentPage(sender:)),
+                          for: .valueChanged)
+        return control
+    }
 
-struct PageControl_Previews: PreviewProvider {
-    static var previews: some View {
-        PageControl()
+    func updateUIView(_ uiView: UIPageControl, context: Context) {
+        uiView.currentPage = currentPage
+    }
+
+    // MARK: -
+
+    class Coordinator: NSObject {
+        var control: PageControl
+
+        init(_ control: PageControl) {
+            self.control = control
+        }
+
+        @objc
+        func updateCurrentPage(sender: UIPageControl) {
+            control.currentPage = sender.currentPage
+        }
     }
 }
