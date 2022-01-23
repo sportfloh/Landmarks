@@ -28,8 +28,12 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
 
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
         pageViewController.setViewControllers(
-            [context.coordinator.controllers[0]], direction: .forward, animated: true)
+            [context.coordinator.controllers[0]],
+            direction: .forward,
+            animated: true)
     }
+
+    // MARK: -
 
     class Coordinator: NSObject, UIPageViewControllerDataSource {
         var parent: PageViewController
