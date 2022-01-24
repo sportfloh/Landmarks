@@ -285,6 +285,27 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		DF255DDB279EC2F6003B0293 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF48DA19279DCF68000A310C /* ContentView.swift */,
+				DF48DA5B279EB43D000A310C /* LandmarkDetail.swift */,
+				DF48DA1D279DCF68000A310C /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF255DDC279EC37B003B0293 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF48DA26279DCF69000A310C /* Info.plist */,
+				DF48DA27279DCF69000A310C /* PushNotificationPayload.apns */,
+				DF48DA21279DCF69000A310C /* Assets.xcassets */,
+				DF48DA23279DCF69000A310C /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DF48D9FD279C478E000A310C /* PageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,15 +328,10 @@
 		DF48DA16279DCF68000A310C /* WatchLandmarks WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DF48DA19279DCF68000A310C /* ContentView.swift */,
 				DF48DA1B279DCF68000A310C /* NotificationController.swift */,
-				DF48DA1D279DCF68000A310C /* NotificationView.swift */,
 				DF48DA1F279DCF68000A310C /* ComplicationController.swift */,
-				DF48DA21279DCF69000A310C /* Assets.xcassets */,
-				DF48DA26279DCF69000A310C /* Info.plist */,
-				DF48DA27279DCF69000A310C /* PushNotificationPayload.apns */,
-				DF48DA23279DCF69000A310C /* Preview Content */,
-				DF48DA5B279EB43D000A310C /* LandmarkDetail.swift */,
+				DF255DDB279EC2F6003B0293 /* Views */,
+				DF255DDC279EC37B003B0293 /* Resources */,
 			);
 			path = "WatchLandmarks WatchKit Extension";
 			sourceTree = "<group>";
@@ -886,7 +902,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks WatchKit Extension/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 3H9LYTUKJE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -917,7 +933,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WatchLandmarks WatchKit Extension/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 3H9LYTUKJE;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
