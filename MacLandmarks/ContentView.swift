@@ -7,15 +7,20 @@
 
 import SwiftUI
 
+// MARK: -
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        LandmarkList()
+            .frame(minWidth: 7000, minHeight: 300)
     }
 }
+
+// MARK: -
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
