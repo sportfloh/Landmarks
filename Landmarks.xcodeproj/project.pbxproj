@@ -46,6 +46,7 @@
 		DF48DA58279EAF8E000A310C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4280F278CC9EF00D580E0 /* MapView.swift */; };
 		DF48DA59279EAF8E000A310C /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DFF42816278E1D6C00D580E0 /* landmarkData.json */; };
 		DF48DA5A279EAF8E000A310C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF427E5278CBC3C00D580E0 /* Assets.xcassets */; };
+		DF48DA5C279EB43D000A310C /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF48DA5B279EB43D000A310C /* LandmarkDetail.swift */; };
 		DF51C9782795A46100099629 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9772795A46100099629 /* HexagonParameters.swift */; };
 		DF51C97A2795A68300099629 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51C9792795A68300099629 /* BadgeBackground.swift */; };
 		DF817BD327958C3C00B12719 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF817BD227958C3C00B12719 /* FavoriteButton.swift */; };
@@ -174,6 +175,7 @@
 		DF48DA36279DCF69000A310C /* WatchLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF48DA3A279DCF69000A310C /* WatchLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarksUITests.swift; sourceTree = "<group>"; };
 		DF48DA3C279DCF69000A310C /* WatchLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF48DA5B279EB43D000A310C /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		DF51C9772795A46100099629 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		DF51C9792795A68300099629 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		DF817BD227958C3C00B12719 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
@@ -313,6 +315,7 @@
 				DF48DA26279DCF69000A310C /* Info.plist */,
 				DF48DA27279DCF69000A310C /* PushNotificationPayload.apns */,
 				DF48DA23279DCF69000A310C /* Preview Content */,
+				DF48DA5B279EB43D000A310C /* LandmarkDetail.swift */,
 			);
 			path = "WatchLandmarks WatchKit Extension";
 			sourceTree = "<group>";
@@ -757,6 +760,7 @@
 				DF48DA20279DCF68000A310C /* ComplicationController.swift in Sources */,
 				DF48DA58279EAF8E000A310C /* MapView.swift in Sources */,
 				DF48DA53279EAF8E000A310C /* Landmark.swift in Sources */,
+				DF48DA5C279EB43D000A310C /* LandmarkDetail.swift in Sources */,
 				DF48DA52279EAF8E000A310C /* Hike.swift in Sources */,
 				DF48DA4F279EAF8E000A310C /* LandmarksApp.swift in Sources */,
 				DF48DA1E279DCF68000A310C /* NotificationView.swift in Sources */,
