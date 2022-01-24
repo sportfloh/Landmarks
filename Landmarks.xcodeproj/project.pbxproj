@@ -36,6 +36,7 @@
 		DF255E17279EDC33003B0293 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD26062279754EF00A15812 /* Profile.swift */; };
 		DF255E18279EDC33003B0293 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0CF7292795CCA8000F0CB8 /* Hike.swift */; };
 		DF255E19279EDC33003B0293 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4281E278E27A000D580E0 /* LandmarkRow.swift */; };
+		DF255E1C279EDE0D003B0293 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF255E1B279EDE0D003B0293 /* LandmarkDetail.swift */; };
 		DF48D9FC279B52AC000A310C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF48D9FB279B52AC000A310C /* ProfileEditor.swift */; };
 		DF48D9FF279C47FA000A310C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF48D9FE279C47FA000A310C /* PageViewController.swift */; };
 		DF48DA01279C4F25000A310C /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF48DA00279C4F25000A310C /* FeatureCard.swift */; };
@@ -197,6 +198,7 @@
 		DF255DFC279ED9F4003B0293 /* MacLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF255E00279ED9F4003B0293 /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		DF255E02279ED9F4003B0293 /* MacLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF255E1B279EDE0D003B0293 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		DF48D9FB279B52AC000A310C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		DF48D9FE279C47FA000A310C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		DF48DA00279C4F25000A310C /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
@@ -373,7 +375,7 @@
 		DF255DE3279ED9F2003B0293 /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
-				DF255DE6279ED9F2003B0293 /* ContentView.swift */,
+				DF255E1A279EDDD0003B0293 /* Views */,
 				DF255DE8279ED9F4003B0293 /* Assets.xcassets */,
 				DF255DED279ED9F4003B0293 /* MacLandmarks.entitlements */,
 				DF255DEA279ED9F4003B0293 /* Preview Content */,
@@ -404,6 +406,15 @@
 				DF255E02279ED9F4003B0293 /* MacLandmarksUITestsLaunchTests.swift */,
 			);
 			path = MacLandmarksUITests;
+			sourceTree = "<group>";
+		};
+		DF255E1A279EDDD0003B0293 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF255DE6279ED9F2003B0293 /* ContentView.swift */,
+				DF255E1B279EDE0D003B0293 /* LandmarkDetail.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DF48D9FD279C478E000A310C /* PageView */ = {
@@ -973,6 +984,7 @@
 				DF255DE7279ED9F2003B0293 /* ContentView.swift in Sources */,
 				DF255E12279EDC33003B0293 /* LandmarkList.swift in Sources */,
 				DF255E0E279EDC33003B0293 /* MapView.swift in Sources */,
+				DF255E1C279EDE0D003B0293 /* LandmarkDetail.swift in Sources */,
 				DF255E14279EDC33003B0293 /* FavoriteButton.swift in Sources */,
 				DF255E0D279EDC33003B0293 /* Landmark.swift in Sources */,
 				DF255E0F279EDC33003B0293 /* LandmarksApp.swift in Sources */,
