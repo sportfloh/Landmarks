@@ -364,7 +364,6 @@
 		DF255DDC279EC37B003B0293 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DF48DA26279DCF69000A310C /* Info.plist */,
 				DF48DA27279DCF69000A310C /* PushNotificationPayload.apns */,
 				DF48DA21279DCF69000A310C /* Assets.xcassets */,
 				DF48DA23279DCF69000A310C /* Preview Content */,
@@ -443,6 +442,7 @@
 				DF48DA1F279DCF68000A310C /* ComplicationController.swift */,
 				DF255DDB279EC2F6003B0293 /* Views */,
 				DF255DDC279EC37B003B0293 /* Resources */,
+				DF48DA26279DCF69000A310C /* Info.plist */,
 			);
 			path = "WatchLandmarks WatchKit Extension";
 			sourceTree = "<group>";
