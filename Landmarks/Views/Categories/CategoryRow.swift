@@ -24,7 +24,7 @@ struct CategoryRow: View {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(items) { landmark in
                         NavigationLink {
-                            LandmarkDetailView(landmark: landmark)
+                            LandmarkDetail(landmark: landmark)
                         } label: {
                             CategoryItem(landmark: landmark)
                         }

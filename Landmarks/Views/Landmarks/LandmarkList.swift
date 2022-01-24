@@ -1,5 +1,5 @@
 //
-//  LandmarkListView.swift
+//  LandmarkList.swift
 //  Landmarks
 //
 //  Created by Florian Bruder on 11.01.22.
@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: -
 
-struct LandmarkListView: View {
+struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
 
@@ -28,9 +28,9 @@ struct LandmarkListView: View {
 
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
-                        LandmarkDetailView(landmark: landmark)
+                        LandmarkDetail(landmark: landmark)
                     } label: {
-                        LandmarkRowView(landmark: landmark)
+                        LandmarkRow(landmark: landmark)
                     }
                 }
             }
@@ -41,9 +41,9 @@ struct LandmarkListView: View {
 
 // MARK: -
 
-struct LandmarkListView_Previews: PreviewProvider {
+struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkListView()
+        LandmarkList()
             .environmentObject(ModelData())
     }
 }

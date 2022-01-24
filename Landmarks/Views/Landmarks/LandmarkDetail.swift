@@ -1,5 +1,5 @@
 //
-//  LandmarkDetailView.swift
+//  LandmarkDetail.swift
 //  Landmarks
 //
 //  Created by Florian Bruder on 12.01.22.
@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: -
 
-struct LandmarkDetailView: View {
+struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
 
@@ -23,7 +23,7 @@ struct LandmarkDetailView: View {
                 .ignoresSafeArea(edges: .top)
                 .frame(height: 300)
 
-            CircleImageView(image: landmark.image)
+            CircleImage(image: landmark.image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
 
@@ -32,7 +32,7 @@ struct LandmarkDetailView: View {
                     Text(landmark.name)
                         .font(.title)
 
-                    FavoriteButtonView(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
 
                 HStack {
@@ -58,11 +58,11 @@ struct LandmarkDetailView: View {
 
 // MARK: -
 
-struct LandmarkDetailView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
 
     static var previews: some View {
-        LandmarkDetailView(landmark: modelData.landmarks[0])
+        LandmarkDetail(landmark: modelData.landmarks[0])
             .environmentObject(modelData)
     }
 }
