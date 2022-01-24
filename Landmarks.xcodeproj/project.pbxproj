@@ -379,11 +379,11 @@
 		DF255DE3279ED9F2003B0293 /* MacLandmarks */ = {
 			isa = PBXGroup;
 			children = (
+				DFA349F8279F17C0006B3A9B /* LandmarkCommands.swift */,
 				DF255E1A279EDDD0003B0293 /* Views */,
 				DF255DE8279ED9F4003B0293 /* Assets.xcassets */,
 				DF255DED279ED9F4003B0293 /* MacLandmarks.entitlements */,
 				DF255DEA279ED9F4003B0293 /* Preview Content */,
-				DFA349F8279F17C0006B3A9B /* LandmarkCommands.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -607,8 +607,8 @@
 		DFF42815278CDCFC00D580E0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DFF4281A278E1E3900D580E0 /* Landmark.swift */,
 				DFF4281C278E245200D580E0 /* ModelData.swift */,
+				DFF4281A278E1E3900D580E0 /* Landmark.swift */,
 				DF0CF7292795CCA8000F0CB8 /* Hike.swift */,
 				DFD26062279754EF00A15812 /* Profile.swift */,
 			);
