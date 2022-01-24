@@ -12,7 +12,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         LandmarkList()
-            .frame(minWidth: 7000, minHeight: 300)
+            .frame(minWidth: 700, minHeight: 300)
     }
 }
 
