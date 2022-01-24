@@ -17,8 +17,17 @@ struct LandmarkRow: View {
             landmark.image
                 .resizable()
                 .frame(width: 50, height: 50)
+                .cornerRadius(5)
 
-            Text(landmark.name)
+            VStack(alignment: .leading) {
+                Text(landmark.name)
+                    .bold()
+
+                Text(landmark.park)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+
             Spacer()
 
             if landmark.isFavorite {
@@ -26,6 +35,7 @@ struct LandmarkRow: View {
                     .foregroundColor(.yellow)
             }
         }
+        .padding(.vertical, 4)
     }
 }
 
