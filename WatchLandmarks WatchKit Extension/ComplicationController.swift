@@ -5,8 +5,6 @@
 //  Created by Florian Bruder on 23.01.22.
 //
 
-// swiftlint:disable line_length
-
 import ClockKit
 
 class ComplicationController: NSObject, CLKComplicationDataSource {
